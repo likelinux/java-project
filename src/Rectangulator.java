@@ -1,5 +1,5 @@
 public class Rectangulator {
-	public static void main(Sring{} args) {
+	public static void main(Sring[] args) {
 		int lenght = Integer.parseInt(args[0]);
 		int width = Integer.parseInt(args[1]);
 
