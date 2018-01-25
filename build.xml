@@ -28,7 +28,7 @@
 
 	<!-- Compiles the java code (including the usage of libery for JUnit -->
 	<target name="compile" depends="clean, makedir">
-		<javac scrdir="${src.dir}" destdir="${build.dir}">
+		<javac srcdir="${src.dir}" destdir="${build.dir}">
 			<classpath refid="class.path" />
 		</javac>
 	</target>
